@@ -1,0 +1,17 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+body{
+  color: white ;
+}
+.navbarbrand{
+  display: flex;
+  justify-content:space-between;
+  padding: 10px 25px;
+}
+.navbarbrand button{
+  padding: 0 10px;
+}

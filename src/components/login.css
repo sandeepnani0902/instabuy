@@ -1,0 +1,51 @@
+*{
+    color:white;
+}
+body{
+    background-color: black;
+    color: white;
+}
+.loginpage{
+    padding: 0;
+    margin: 0;
+    color: white;
+    padding: 1rem;
+}
+.loginblock{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    margin-top: 100px;
+    margin-left: 150px;
+    
+    padding: 30PX;
+}
+.loginblock h2{
+    color: #FF1744;
+}
+
+
+.loginblock Form .inputs{
+    display: flex;
+    gap: 10px;
+}
+.loginblock Form .submitbutton{
+    width: 250px;
+    /* height: auto; */
+    margin: auto;
+    
+}
+.loginbannerblock{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.loginbannerblock img{
+    /* width:; */
+    margin-top: 100px;
+    width: 450px;
+    object-fit: contain;
+}
